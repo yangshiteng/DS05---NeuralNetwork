@@ -91,5 +91,25 @@ Deep Learning and neural networks tend to be used interchangeably in conversatio
 
 ## 5.2 https://www.youtube.com/watch?v=wl1myxrtQHQ&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=2
 
+## 5.3 https://www.youtube.com/watch?v=sDv4f4s2SB8&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=3
+
+- gradient descent 
+- step size = learning rate * derivative
+- new parameter = old parameter - step size
+- gradient descent stop when step size is very small (<= 0.001)
+- even if the step size is still large, if therre have been more than the maximum number of steps (1000), gradient descent will stop
+- When you have two or more derivatives of the same function, they are called a gradient
+- Gradient Descent is very sensitive to the learning rate
+- The good news is that in practice, a reasonable learning rate can be determined automatically by starting large and getting smaller with each step
+
+Step1: Take the derivative of the Loss Function for each parameter in it
+Step2: Pick random values for the parameters
+Step3: Plug the parameter values into the derivatives
+Step4: Calculate the step sizes: Step size = Slop * Learning rate
+Step5: Calculate the new parameter = old parameter - step size
+
+Notes: When you have millions of data points, gradient descent can take a long time, so there is a thing called "Stochastic Gradient Descent" that uses a randomly selected subset of data at every step rather than the full dataset. This reduces the time spent calculating the derivatives of the loss function.
+
+
 
 
