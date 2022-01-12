@@ -84,11 +84,12 @@ Deep Learning and neural networks tend to be used interchangeably in conversatio
 
 # 5. Good Video Tutorial For Neural Netwworks 
 
-These videos are from youtuber StatQuest
-
 ## 5.1 https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1
 
+- A Neural Network starts out with unknown parameter values that are estimated when we fit the Neural Network to a dataset using a method called Backpropagation
+- When you build a Neural Network, you have to decide which activation function you want to use (for example, sigmoid function, ReLU function and softplus function)
 
+## 5.2 https://www.youtube.com/watch?v=wl1myxrtQHQ&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=2
 
 
 
