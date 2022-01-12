@@ -86,7 +86,9 @@ Deep Learning and neural networks tend to be used interchangeably in conversatio
 
 These videos are from youtuber StatQuest
 
-1. https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1
-2. 
+## 5.1 https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1
+
+
+
 
 
