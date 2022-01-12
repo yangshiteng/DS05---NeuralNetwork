@@ -145,6 +145,8 @@ Notes: When you have millions of data points, gradient descent can take a long t
 - Unlike the ArgMax function, which can't be used in backpropagation since it has a derivative equal to 0 or its undefined, the derivative of the SoftMax function is not always 0 and we can use it for Gradient Descent
 - So, we see why Neural Networks with multiple outputs often use SoftMax for training, then, use ArgMax, which has super easy to understand output, to classify new observation
 - For ArgMax, we use sum of square residual to determine how well the Neural Network fit the data, however, when we use the SoftMax function, because the output values are predicted probabilities between 0 and 1, we often use something called "Cross Entropy" to determine how well the Neural Network fits the data
+- ArgMax function, Loss function: Sum of Square Residuals, final result is either 1 or 0, and the values taken into ArgMax function is not probability
+- SoftMax function, Loss function: Cross Entropy, final result is probability
 
 
 
