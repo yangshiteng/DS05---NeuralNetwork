@@ -134,9 +134,7 @@ Notes: When you have millions of data points, gradient descent can take a long t
 
 ## 5.8 https://www.youtube.com/watch?v=83LYR-1IcjA&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=8
 
-- The sum of final output is not equal to 1
 - We make the decision based on ArgMax or SoftMax
-- The output value is not probability 
 
 ## 5.9 https://www.youtube.com/watch?v=KpKog-L9veg&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=9
 
@@ -144,6 +142,9 @@ Notes: When you have millions of data points, gradient descent can take a long t
 - In contrast, we can use Softmax in backpropagation
 - ArgMax, just take max value as the final decision
 - SoftMax function: ![image](https://user-images.githubusercontent.com/60442877/149148829-3471b1bb-4119-456b-b4dd-efeddb33668c.png)
+- Unlike the ArgMax function, which can't be used in backpropagation since it has a derivative equal to 0 or its undefined, the derivative of the SoftMax function is not always 0 and we can use it for Gradient Descent
+- So, we see why Neural Networks with multiple outputs often use SoftMax for training, then, use ArgMax, which has super easy to understand output, to classify new observation
+- For ArgMax, we use sum of square residual to determine how well the Neural Network fit the data, however, when we use the SoftMax function, because the output values are predicted probabilities between 0 and 1, we often use something called "Cross Entropy" to determine how well the Neural Network fits the data
 
 
 
