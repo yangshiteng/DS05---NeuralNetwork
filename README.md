@@ -56,6 +56,26 @@ Most deep neural networks are feedforward, meaning they flow in one direction on
 
 # 3. Types of Neural Networks
 
+Neural networks can be classified into different types, which are used for different purposes. While this isn’t a comprehensive list of types, the below would be representative of the most common types of neural networks that you’ll come across for its common use cases:
+
+## 3.1 Perceptron
+
+The perceptron is the oldest neural network, created by Frank Rosenblatt in 1958. It has a single neuron and is the simplest form of a neural network:
+
+![image](https://user-images.githubusercontent.com/60442877/149046542-3852975a-d6b2-4597-8fd8-88ac04ed9914.png)
+
+## 3.2 Feedforward Neural Networks (Multi-layer Perceptrons)
+
+Feedforward neural networks, or multi-layer perceptrons (MLPs), are what we’ve primarily been focusing on within this article. They are comprised of an input layer, a hidden layer or layers, and an output layer. While these neural networks are also commonly referred to as MLPs, it’s important to note that they are actually comprised of sigmoid neurons, not perceptrons, as most real-world problems are nonlinear. Data usually is fed into these models to train them, and they are the foundation for computer vision, natural language processing, and other neural networks.
+
+## 3.3 Convolutional Neural Networks (CNNs)
+
+Convolutional neural networks (CNNs) are similar to feedforward networks, but they’re usually utilized for image recognition, pattern recognition, and/or computer vision. These networks harness principles from linear algebra, particularly matrix multiplication, to identify patterns within an image.
+
+## 3.4 Recurrent Neural Networks (RNNs)
+
+Recurrent neural networks (RNNs) are identified by their feedback loops. These learning algorithms are primarily leveraged when using time-series data to make predictions about future outcomes, such as stock market predictions or sales forecasting.
+
 
 
 
