@@ -82,5 +82,11 @@ Recurrent neural networks (RNNs) are identified by their feedback loops. These l
 Deep Learning and neural networks tend to be used interchangeably in conversation, which can be confusing. As a result, it’s worth noting that the “deep” in deep learning is just referring to the depth of layers in a neural network. A neural network that consists of more than three layers (or more than one hidden layer), which would be inclusive of the inputs and the output—can be considered a deep learning algorithm. A neural network that only has two or three layers is just a basic neural network.
 
 
+# 5. Good Video Tutorial For Neural Netwworks 
+
+These videos are from youtuber StatQuest
+
+1. https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1
+2. 
 
 
