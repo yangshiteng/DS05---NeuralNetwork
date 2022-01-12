@@ -130,3 +130,20 @@ Notes: When you have millions of data points, gradient descent can take a long t
 
 ## 5.7 https://www.youtube.com/watch?v=68BZ5f7P94E&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=7
 
+- ReLU function may seem weird because it is not curvy
+
+## 5.8 https://www.youtube.com/watch?v=83LYR-1IcjA&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=8
+
+- The sum of final output is not equal to 1
+- We make the decision based on ArgMax or SoftMax
+- The output value is not probability 
+
+## 5.9 https://www.youtube.com/watch?v=KpKog-L9veg&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=9
+
+- We can't use Argmax in backpropagation
+- In contrast, we can use Softmax in backpropagation
+- ArgMax, just take max value as the final decision
+- SoftMax function: ![image](https://user-images.githubusercontent.com/60442877/149148829-3471b1bb-4119-456b-b4dd-efeddb33668c.png)
+
+
+
