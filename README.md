@@ -82,12 +82,16 @@ Recurrent neural networks (RNNs) are identified by their feedback loops. These l
 Deep Learning and neural networks tend to be used interchangeably in conversation, which can be confusing. As a result, it’s worth noting that the “deep” in deep learning is just referring to the depth of layers in a neural network. A neural network that consists of more than three layers (or more than one hidden layer), which would be inclusive of the inputs and the output—can be considered a deep learning algorithm. A neural network that only has two or three layers is just a basic neural network.
 
 
-# 5. Good Video Tutorial For Neural Netwworks 
+# 5. Video Tutorial For Neural Netwworks (StatQuest ) 
 
 ## 5.1 https://www.youtube.com/watch?v=CqOfi41LfDw&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1
 
 - A Neural Network starts out with unknown parameter values that are estimated when we fit the Neural Network to a dataset using a method called Backpropagation
-- When you build a Neural Network, you have to decide which activation function you want to use (for example, sigmoid function, ReLU function and softplus function)
+- When you build a Neural Network, you have to decide which activation function you want to use (for example, sigmoid function, Rectified Linear Unit (ReLU) function and softplus function)
+- Sigmoid Function: ![image](https://user-images.githubusercontent.com/60442877/149124411-ab624a37-f77f-46e9-a76a-92ba61d6664e.png)
+- ReLU Function: f(x) = max(0,x)
+- Softplus Function: ![image](https://user-images.githubusercontent.com/60442877/149124656-084f0cf9-c7d8-4daf-908b-f183d63f9de0.png)
+
 
 ## 5.2 https://www.youtube.com/watch?v=wl1myxrtQHQ&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=2
 
@@ -111,6 +115,18 @@ Notes: When you have millions of data points, gradient descent can take a long t
 
 ## 5.4 https://www.youtube.com/watch?v=IN2XmBhILt4&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=4
 
+- Neural Network starts with identical activation function, but, using different weights and biases on the connections, it flips and stretches the activation functions into new shapes
+- We fit Neural Networks to the dataset by backpropagation procedure
+- Backpropagation starts with the last parameter and works its way backwards to estimate all of the other parameters
 
+## 5.5 https://www.youtube.com/watch?v=iyn2zdALii8&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=5
 
+- bias term frequently start at 0
+
+## 5.6 https://www.youtube.com/watch?v=GKZoOHXGcLo&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=6
+
+- We can use standard normal distribution to initialize weights
+- Bias can ususally take 0 as initial value
+
+## 5.7 https://www.youtube.com/watch?v=68BZ5f7P94E&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=7
 
