@@ -102,11 +102,11 @@ Deep Learning and neural networks tend to be used interchangeably in conversatio
 - Gradient Descent is very sensitive to the learning rate
 - The good news is that in practice, a reasonable learning rate can be determined automatically by starting large and getting smaller with each step
 
-Step1: Take the derivative of the Loss Function for each parameter in it
-Step2: Pick random values for the parameters
-Step3: Plug the parameter values into the derivatives
-Step4: Calculate the step sizes: Step size = Slop * Learning rate
-Step5: Calculate the new parameter = old parameter - step size
+- Step1: Take the derivative of the Loss Function for each parameter in it
+- Step2: Pick random values for the parameters
+- Step3: Plug the parameter values into the derivatives
+- Step4: Calculate the step sizes: Step size = Slop * Learning rate
+- Step5: Calculate the new parameter = old parameter - step size
 
 Notes: When you have millions of data points, gradient descent can take a long time, so there is a thing called "Stochastic Gradient Descent" that uses a randomly selected subset of data at every step rather than the full dataset. This reduces the time spent calculating the derivatives of the loss function.
 
