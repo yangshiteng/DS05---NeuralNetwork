@@ -165,4 +165,13 @@ Notes: When you have millions of data points, gradient descent can take a long t
 - We evaluate how well the Neural Network fits the data with Cross Entropy, and that means if we want to optimize parameters with backpropagation, we need to take the derivative of the equation for Cross Entropy with respect to the different Weights and Biases in the Neural Network
 - Cross Entropy: ![image](https://user-images.githubusercontent.com/60442877/149287232-ff2b39ae-71c3-4d64-ab8b-20965d6a138a.png)
 
+## 5.13 https://www.youtube.com/watch?v=HGwBXDKFk9I&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=13
 
+- Image Classification with Convolutional Neural Networks.
+- Suppose the origial image is 6x6, it is quite small image, so it is possible to make a normal Neural Network that can correctly classify it
+- We can just simply convert this 6x6 grid of pixels into a single column of 36 input nodes (convert order is by row)
+- However, if we had a larger image, like 100x100 pixels, which is still pretty small compared to real world pictures, then, we would end up with having to estimate 10,000 weight values per node in the hidden layer which is very time consuming and not realistic, and another problem is that its not clear that this Neural Network will still perform well if the image is shifted by one pixel
+![image](https://user-images.githubusercontent.com/60442877/149333072-74e93020-c015-4486-96c3-de5127e098fd.png)
+- Lastly, even complicated images like the below teddy bear which tends to have correlated pixels. So, it might be helpful if we can take advantage of the correlation that exists among each pixel
+![image](https://user-images.githubusercontent.com/60442877/149333157-0a58fddd-6fc2-49cf-86d3-490b4b2fdafd.png)
+- Thus, classification of large and complicated images is usually done using something called a Convolutional Neural Network
