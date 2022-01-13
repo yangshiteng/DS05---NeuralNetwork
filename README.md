@@ -135,6 +135,7 @@ Notes: When you have millions of data points, gradient descent can take a long t
 ## 5.8 https://www.youtube.com/watch?v=83LYR-1IcjA&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=8
 
 - We make the decision based on ArgMax or SoftMax
+- We only use activation function if we want to pass the value to next layer, so, in the output layer, no need to use activation function
 
 ## 5.9 https://www.youtube.com/watch?v=KpKog-L9veg&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=9
 
@@ -148,5 +149,14 @@ Notes: When you have millions of data points, gradient descent can take a long t
 - ArgMax function, Loss function: Sum of Square Residuals, final result is either 1 or 0, and the values taken into ArgMax function is not probability
 - SoftMax function, Loss function: Cross Entropy, final result is probability
 
+## 5.10 https://www.youtube.com/watch?v=M59JElEPgIg&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=10
+
+## 5.11 https://www.youtube.com/watch?v=6ArSys5qHAU&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=11
+
+- When we use SoftMax function to determine the final output, for backpropagation, we use Cross Entropy to determine how well the Neural Network fits the data
+- The Cross Entropy of one single row input data is the -log(max predicted probability)
+- To get the total error for the Neural Network, all we do is add up the Cross Entropy values, and we can use Backpropagation to adjust the Weights and Biases and hopefully minimize the total error
+- So, when the Neural Network makes a really bad prediction, Cross Entropy will help us take a relatively large step towards a better prediction
+![image](https://user-images.githubusercontent.com/60442877/149275761-ea75c9a9-f1ee-4273-b570-9826348222a6.png)
 
 
