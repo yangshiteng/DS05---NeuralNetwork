@@ -175,3 +175,8 @@ Notes: When you have millions of data points, gradient descent can take a long t
 - Lastly, even complicated images like the below teddy bear which tends to have correlated pixels. So, it might be helpful if we can take advantage of the correlation that exists among each pixel
 ![image](https://user-images.githubusercontent.com/60442877/149333157-0a58fddd-6fc2-49cf-86d3-490b4b2fdafd.png)
 - Thus, classification of large and complicated images is usually done using something called a Convolutional Neural Network
+- Convolutional Neural Network do 3 things to make image classification works
+- 1. Reduce the number of input nodes
+- 2. Tolerate small shifts in where the pixels are in the image
+- 3. Take advantage of the correlations that we observe in complex images
+- The 
