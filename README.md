@@ -179,4 +179,17 @@ Notes: When you have millions of data points, gradient descent can take a long t
 - 1. Reduce the number of input nodes
 - 2. Tolerate small shifts in where the pixels are in the image
 - 3. Take advantage of the correlations that we observe in complex images
-- The 
+- The first thing a Convolutional Neural Network does is apply a Filter to the input image. Generally, a filter in Convolutional Neural Network is just s smaller square that is 3x3 pixels, and the intensity of each pixel in the filter is determined by Backpropagation
+- This means that, before training a Convolutional Neural Network, we start with random pixel values in filter, and after training with Backpropagation, we end up with the filter that can help us go next step
+- To apply the Filter to the input image, we overlay the Filter onto the image, and then, we multiply together each overlapping pixel, and we sum it up, this sum of products is known as dot product, finally, we also need to add one bias term to generate the final output value which will be part of the feature map. 
+- Then, we repeat this overlaying procedure by shifting one or more pixel by row, and the generated final value will be passed into the feature map
+- Because each value in the feature map corresponds to a group of pixels in original input image, the feature map helps take advantage of any correlations there might be in the original image
+- After we get the feature map, then, we will input each value in the feature map into the activation function to get a new feature map
+- For the new feature map, we will appy Max Pooling or Average Pooling step to get the final image which will be used to train the Neural Network
+- The Convolutional Neural Networks take correlations into account and this is accomplished by the Filter
+- ![image](https://user-images.githubusercontent.com/60442877/149337576-6189ca54-feff-4f65-bb88-1fe64936dfb2.png)
+- Convolutional Neural Network Procedure:
+- 1. Apply the Filter image to the original input image by overlaying, dot product, add bias term, pixel shift to generate feature map
+- 2. Input each value in feature map into activation function to get a new feature map
+- 3. For the new feature map, we apply Max Pooling or Average Pooling step
+- 4. The final image we get will be used to train the Neural Network
