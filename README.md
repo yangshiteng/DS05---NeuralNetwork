@@ -154,9 +154,15 @@ Notes: When you have millions of data points, gradient descent can take a long t
 ## 5.11 https://www.youtube.com/watch?v=6ArSys5qHAU&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=11
 
 - When we use SoftMax function to determine the final output, for backpropagation, we use Cross Entropy to determine how well the Neural Network fits the data
-- The Cross Entropy of one single row input data is the -log(max predicted probability)
+- The Cross Entropy of one single row input data is the -log(predicted probability of true label)
 - To get the total error for the Neural Network, all we do is add up the Cross Entropy values, and we can use Backpropagation to adjust the Weights and Biases and hopefully minimize the total error
 - So, when the Neural Network makes a really bad prediction, Cross Entropy will help us take a relatively large step towards a better prediction
 ![image](https://user-images.githubusercontent.com/60442877/149275761-ea75c9a9-f1ee-4273-b570-9826348222a6.png)
+- So, Neural Network has two types of loss function used in backpropagation for weights and biases optimization, one is Sum of Square Residuals, one is Cross Entropy
+
+## 5.12 https://www.youtube.com/watch?v=xBEh66V9gZo&list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&index=12
+
+- We evaluate how well the Neural Network fits the data with Cross Entropy, and that means if we want to optimize parameters with backpropagation, we need to take the derivative of the equation for Cross Entropy with respect to the different Weights and Biases in the Neural Network
+- Cross Entropy: ![image](https://user-images.githubusercontent.com/60442877/149287232-ff2b39ae-71c3-4d64-ab8b-20965d6a138a.png)
 
 
