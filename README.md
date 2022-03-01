@@ -193,3 +193,16 @@ Notes: When you have millions of data points, gradient descent can take a long t
 - 2. Input each value in feature map into activation function to get a new feature map
 - 3. For the new feature map, we apply Max Pooling or Average Pooling step
 - 4. The final image we get will be used to train the Neural Network
+
+
+### 5.14 Tensors for Neural Networks
+
+Tensors for Neural Networks:
+1. hold the data
+2. hold the weights and biases
+3. are designed for hardware acceleration 
+4. Neural Networks can do all the math in a relatively short period of time
+
+
+
+
