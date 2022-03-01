@@ -197,6 +197,8 @@ Notes: When you have millions of data points, gradient descent can take a long t
 
 ### 5.14 Tensors for Neural Networks
 
+https://www.youtube.com/watch?v=L35fFDpwIM4
+
 Tensors for Neural Networks:
 1. hold the data
 2. hold the weights and biases
